@@ -1,32 +1,32 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import Fullstackwebsite from '../assets/projects/Fullstackwebsite.png'
+import Reactapplication from '../assets/projects/Reactapplication.png'
 
 export const data=[
     {
         id:1,
         name:"Full Stack Application",
-        image:WorkIm,
+        image:Fullstackwebsite ,
         github:"",
         live:"",
     },
     {
         id:2,
         name:"React JS Application",
-        image:RealEst,
+        image:Reactapplication,
         github:"",
         live:"",
     },
     {
         id:3,
         name:"React JS Application",
-        image:WorkIm,
+        image:"",
         github:"",
         live:"",
     },
     {
         id:4,
         name:"React JS Application",
-        image:RealEst,
+        image:"",
         github:"",
         live:"",
     },
