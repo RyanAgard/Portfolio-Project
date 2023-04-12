@@ -6,14 +6,14 @@ export const data=[
         id:1,
         name:"Full Stack Application",
         image:Fullstackwebsite ,
-        github:"",
+        github:"https://github.com/RyanAgard",
         live:"",
     },
     {
         id:2,
         name:"React JS Application",
         image:Reactapplication,
-        github:"",
+        github:"https://github.com/RyanAgard",
         live:"",
     },
     {
