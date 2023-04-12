@@ -1,4 +1,5 @@
-import React from 'react';
+import React from'react';
+import Ryan from'../assets/Ryan.png';
 
 const About = () => {
   return (
@@ -10,7 +11,8 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
+          <div> <img src={Ryan} alt="" width="500" height="500"></img>
+          </div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
