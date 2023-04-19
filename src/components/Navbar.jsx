@@ -20,6 +20,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#fa961cde] text-xl font-medium'>
       <div>
         {/* <img src={Logo} alt='Logo Image' style={{ width: '200px' }} /> */}
+        {/* <h1>RA</h1> */}
       </div>
 
       {/* menu */}
@@ -61,7 +62,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
