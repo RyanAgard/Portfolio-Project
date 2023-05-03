@@ -24,8 +24,8 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <ul className='hidden md:flex'>
-        <li>
+      <ul className='hidden md:flex drop-shadow-xl'>
+        <li >
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
@@ -65,30 +65,30 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#fa961c] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl drop-shadow-xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl '>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl drop-shadow-xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl drop-shadow-xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl drop-shadow-xl'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500} >
             Contact
@@ -123,7 +123,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] '> 
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://docs.google.com/document/d/e/2PACX-1vQdbuQ_myPYd71HUB4E1ryLvnUQyu4m0DPAVHu5sc9YwzFoIbodBVAnIEYELYbiJk0AsXiHQ7L2pZux/pub'
