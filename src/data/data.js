@@ -14,7 +14,7 @@ export const data=[
         name:"React JS Application",
         image:Reactapplication,
         github:"https://github.com/RyanAgard/Second-React-Application",
-        live:"",
+        live:"https://globalweatherapp-5e5f56.netlify.app/",
     },
     {
         id:3,
